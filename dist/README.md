@@ -1,4 +1,4 @@
-### Cook your Toast with Cook-Toast **NG5**
+### Cook your Toast with Cook-Toast - ANGULAR 5
 
 ![WARN](http://res.cloudinary.com/dkws91cqo/image/upload/v1510679477/warn_nnsjyl.png)    ![FAIL](http://res.cloudinary.com/dkws91cqo/image/upload/v1510679476/fail_rksmcp.png)
 
