@@ -30,7 +30,7 @@ npm install cook-toast-ng5 --save
  ```
    //main module
    
-   import { CookToastModule } from 'cook-toast';
+   import { CookToastModule } from 'cook-toast-ng5';
    @NgModule({
        imports :[
            CookToastModule
@@ -49,7 +49,7 @@ of TOAST you can use to make the user indications what to do NEXT.
 
 
 ```sh
- import { KitchenService } from 'cook-toast';
+ import { KitchenService } from 'cook-toast-ng5';
  
  class MyToastComponent {
      constructor(private kitchenService: KitchenService){
