@@ -175,11 +175,10 @@ var CooktoastDirective = (function () {
             document.getElementById("toast").style.marginLeft;
         var startFrom = this.getDistanceinPX(distaceFromVerticalEdge);
         var pathToMove = startFrom.distance + document.getElementById("toast").offsetWidth;
-        var id = setInterval(frame, 0);
-        function frame() {
+        for (;;) {
             if (pathToMove === 0) {
-                clearInterval(id);
                 containerRef.clear();
+                break;
             }
             else {
                 pathToMove--;
