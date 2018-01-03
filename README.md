@@ -9,7 +9,8 @@
 #### Installation -
 
 ```
-npm install cook-toast-ng5 --save
+
+   npm install cook-toast-ng5 --save
 
 ```
 
@@ -27,7 +28,8 @@ npm install cook-toast-ng5 --save
  and insert this module in your imports array of NgModule.
 
 
- ```
+ ```sh
+
    //main module
    
    import { CookToastModule } from 'cook-toast-ng5';
@@ -138,11 +140,10 @@ in RUNTIME and you can also use in your HTML Parameters.
 - For HTML **Slide Animation**
 
 ```sh
+
     <span  id="toast" *cook-toast="5; left:true; top:true; slide:true;"></span>
 
 ```
-
-#### Updates -
 
 
 
