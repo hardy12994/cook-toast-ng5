@@ -10,7 +10,7 @@
 
 ```
 
-   npm install cook-toast-ng5 --save
+   npm install cook-toast-ng5 --save   
 
 ```
 
