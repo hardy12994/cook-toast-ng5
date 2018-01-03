@@ -18,7 +18,7 @@ export declare class CooktoastDirective {
     getColor(type: string): string;
     setDecoration(newMessage: string): void;
     getDistanceinPX(distaceFromVerticalEdge: any): {
-        distance: any;
+        distance: number;
         distanceType: any;
     };
     motionToVertical(containerRef: any): void;

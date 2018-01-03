@@ -165,7 +165,7 @@ var CooktoastDirective = (function () {
     };
     CooktoastDirective.prototype.getDistanceinPX = function (distaceFromVerticalEdge) {
         return {
-            distance: distaceFromVerticalEdge.replace(/[^0-9]+/ig, ""),
+            distance: Number(distaceFromVerticalEdge.replace(/[^0-9]+/ig, "")),
             distanceType: distaceFromVerticalEdge.replace(/[0-9]+/ig, "")
         };
     };
